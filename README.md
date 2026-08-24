@@ -27,7 +27,7 @@ what's practical on a simulator.
 
 This project uses a compact quadratic proxy over the station variables only:
 
-$$\max \sum_i c_i x_i \;-\; \lambda \sum_{i<i'} o_{i,i'}\, x_i x_{i'} \qquad \text{s.t.} \quad \sum_i x_i = k$$
+$\max \sum_i c_i x_i \;-\; \lambda \sum_{i<i'} o_{i,i'}\, x_i x_{i'} \qquad \text{s.t.} \quad \sum_i x_i = k$
 
 where $c_i$ is the number of zones station $i$ covers, and $o_{i,i'}$ is the number of zones
 covered by *both* $i$ and $i'$. It rewards individual coverage and penalizes overlap between
