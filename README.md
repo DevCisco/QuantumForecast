@@ -1,3 +1,4 @@
+"This is independent work by a student; it is not an official publication of the University of Salerno."
 # Constraint-native vs. penalty QAOA for budgeted sensor placement
 
 A small, fully reproducible study of one question: **for a budget-constrained maximum-coverage
