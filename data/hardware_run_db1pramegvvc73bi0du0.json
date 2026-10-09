@@ -1,0 +1,65 @@
+{
+  "job_id": "db1pramegvvc73bi0du0",
+  "backend": "ibm_marrakesh",
+  "date": "2026-10-05",
+  "shots": 4000,
+  "instance": "make_instance(12, seed=0), k=4, lambda=1, 25 zones",
+  "optimum": 13,
+  "circuits": [
+    "penalty_p1",
+    "native_p1",
+    "penalty_p2",
+    "native_p2",
+    "penalty_p3",
+    "native_p3"
+  ],
+  "idealized_depth": {
+    "penalty_p1": 66,
+    "native_p1": 125,
+    "penalty_p2": 104,
+    "native_p2": 249,
+    "penalty_p3": 142,
+    "native_p3": 373
+  },
+  "simulator_top1_coverage_previous_version_1000_unseeded_shots": {
+    "penalty_p1": 11,
+    "native_p1": 6,
+    "penalty_p2": 8,
+    "native_p2": 8,
+    "penalty_p3": 7,
+    "native_p3": 8
+  },
+  "isa_depth_live": {
+    "penalty_p1": 550,
+    "native_p1": 322,
+    "penalty_p2": 699,
+    "native_p2": 588,
+    "penalty_p3": 998,
+    "native_p3": 903
+  },
+  "isa_depth_fakemarrakesh_seed42": {
+    "penalty_p1": 446,
+    "native_p1": 304,
+    "penalty_p2": 710,
+    "native_p2": 587,
+    "penalty_p3": 958,
+    "native_p3": 870
+  },
+  "best_of_top10_feasible_coverage": {
+    "penalty_p1": 13,
+    "native_p1": 9,
+    "penalty_p2": 12,
+    "native_p2": 10,
+    "penalty_p3": 11,
+    "native_p3": 11
+  },
+  "all_shots_feasible": {
+    "penalty_p1": false,
+    "native_p1": false,
+    "penalty_p2": false,
+    "native_p2": false,
+    "penalty_p3": false,
+    "native_p3": false
+  },
+  "note": "Values printed by the notebook at execution time; raw counts were not saved."
+}

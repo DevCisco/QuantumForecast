@@ -1,0 +1,7 @@
+circuit,hardware best-of-top10 (archived),simulator best-of-top10 (mean),simulator 95% range,uniform-noise best-of-top10 (mean),uniform 95% range,P(uniform >= hardware),simulator top-1 (exact),"simulator top-1 (previous version, 1000 shots)",simulator p_feasible,simulator E[ratio|feasible]
+penalty_p1,13,12.267,"[11, 13]",11.474,"[10, 13]",0.1155,11,11,0.20387230446813742,0.7434157720778485
+native_p1,9,6.0,"[6, 6]",11.474,"[10, 13]",0.9995,6,6,1.0,0.4615384609386569
+penalty_p2,12,10.926,"[8, 12]",11.474,"[10, 13]",0.4975,8,8,0.09748348465395236,0.6280152686964438
+native_p2,10,8.0,"[8, 8]",11.474,"[10, 13]",0.9875,8,8,0.9999999999999999,0.6153846125336933
+penalty_p3,11,11.334,"[11, 12]",11.474,"[10, 13]",0.874,10,7,0.25388027849414285,0.6941450571275741
+native_p3,11,11.774,"[10, 12]",11.474,"[10, 13]",0.874,8,8,1.0,0.6152951012523995

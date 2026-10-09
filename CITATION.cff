@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite it as below."
+title: "Constraint-native versus penalty QAOA for budgeted maximum coverage"
+authors:
+  - family-names: "Pisaturo"
+    given-names: "F."            # complete with your full first name
+    affiliation: "University of Salerno"
+version: "1.0.0"
+date-released: "2026-10-08"
+license: MIT

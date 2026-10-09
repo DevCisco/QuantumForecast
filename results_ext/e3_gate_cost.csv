@@ -1,0 +1,19 @@
+set,cost,pauli_terms,max_weight,two_qubit_gates_p1
+R (sparse),proxy,33,2,170.0
+R (sparse),exact,67,5,372.0
+R (sparse),proxy,21,2,103.0
+R (sparse),exact,27,4,136.0
+R (sparse),proxy,24,2,127.0
+R (sparse),exact,39,4,185.0
+D (dense),proxy,61,2,301.0
+D (dense),exact,269,7,1656.3333333333333
+D (dense),proxy,49,2,270.0
+D (dense),exact,124,6,715.0
+D (dense),proxy,70,2,340.0
+D (dense),exact,1303,10,9592.0
+F (proxy fails),proxy,70,2,340.0
+F (proxy fails),exact,1303,10,9592.0
+F (proxy fails),proxy,62,2,312.0
+F (proxy fails),exact,447,8,2879.6666666666665
+F (proxy fails),proxy,62,2,315.0
+F (proxy fails),exact,581,9,3960.3333333333335
