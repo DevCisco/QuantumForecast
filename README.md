@@ -72,7 +72,7 @@ counts and repeats the analysis on them.
 
 Station $i$ covers the zone set $A_i$; maximise $|\bigcup_{i \in S} A_i|$ with $|S| = k$. QAOA sees the proxy
 
-$$g_\lambda(x) = \sum_i |A_i|\, x_i - \lambda \sum_{i<j} |A_i \cap A_j|\, x_i x_j ,$$
+$g_\lambda(x) = \sum_i |A_i|\, x_i - \lambda \sum_{i<j} |A_i \cap A_j|\, x_i x_j ,$
 
 inclusion–exclusion truncated at second order. A zone covered by $m$ selected stations counts
 $m - \lambda\binom{m}{2}$: with $\lambda = 1$ this is exact for $m \le 2$, 0 for $m = 3$ and negative for $m \ge 4$, and $g_1$ is
