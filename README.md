@@ -1,5 +1,8 @@
-"This is independent work by a student; it is not an official publication of the University of Salerno."
 # Constraint-native vs. penalty QAOA for budgeted sensor placement
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23266050.svg)](https://doi.org/10.5281/zenodo.23266050)
+
+**Author:** Francesco Pisaturo ([ORCID 0009-0002-5963-8036](https://orcid.org/0009-0002-5963-8036)). Independent work by a student; it is not an official publication of, nor endorsed by, any university.
 
 A small, fully reproducible study of one question: **for a budget-constrained maximum-coverage
 problem, should QAOA enforce the budget in the mixer or with a penalty?** The problem is the
@@ -73,7 +76,7 @@ counts and repeats the analysis on them.
 
 Station $i$ covers the zone set $A_i$; maximise $|\bigcup_{i \in S} A_i|$ with $|S| = k$. QAOA sees the proxy
 
-$g_\lambda(x) = \sum_i |A_i|\, x_i - \lambda \sum_{i<j} |A_i \cap A_j|\, x_i x_j ,$
+$$g_\lambda(x) = \sum_i |A_i|\, x_i - \lambda \sum_{i<j} |A_i \cap A_j|\, x_i x_j ,$$
 
 inclusion–exclusion truncated at second order. A zone covered by $m$ selected stations counts
 $m - \lambda\binom{m}{2}$: with $\lambda = 1$ this is exact for $m \le 2$, 0 for $m = 3$ and negative for $m \ge 4$, and $g_1$ is
@@ -307,6 +310,10 @@ labelled as such. Nine other regions are preset in the configuration cell (Milan
 Lamezia Terme–Gizzeria, Foligno, Rimini, Reggio Calabria, Gstaad, Zurich, Lausanne); the Milano
 anchors are from general knowledge and not individually verified. Setting `CSV_PATH` loads a
 real station list instead.
+
+## How to cite
+
+F. Pisaturo, *Constraint-native versus penalty QAOA for budgeted maximum coverage*, software and report, Zenodo (2026). doi:[10.5281/zenodo.23266050](https://doi.org/10.5281/zenodo.23266050)
 
 ## References
 

@@ -3,8 +3,10 @@ message: "If you use this code or these results, please cite it as below."
 title: "Constraint-native versus penalty QAOA for budgeted maximum coverage"
 authors:
   - family-names: "Pisaturo"
-    given-names: "F."            # complete with your full first name
-    affiliation: "University of Salerno"
+    given-names: "Francesco"
+    orcid: "https://orcid.org/0009-0002-5963-8036"
 version: "1.0.0"
-date-released: "2026-10-08"
+doi: 10.5281/zenodo.23266050
+date-released: "2026-10-09"
 license: MIT
+repository-code: "https://github.com/<your-username>/quantum-sensor-placement"
